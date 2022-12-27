@@ -6,6 +6,6 @@ with open(logfile) as f:
 	for line in f:
 	if "CRON" not in line:
 		continue
-		pattern =r"USER \((\w+)\)$"ine.strip()
-		result = re.search(pattern,line)
-		print(result[1])
+	pattern =r"USER \((\w+)\)$"ine.strip()
+	result = re.search(pattern,line)
+	print(result[1])
